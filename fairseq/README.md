@@ -2,45 +2,46 @@
 [Bhojpuri](https://bhashini.gov.in/ulca/search-model/67eb8f9a7d193a1beb4b86c5)
 
 
-## Models
+### Models
 
-The WERs specified are without the use of any language model.
-Model | Pre-training data | Fine-tuning data | Model Links 
-|---|---|---|---
-data2vec-aqc | --- | Bhojpuri | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/data2vec-aqc/bh_checkpoint_best.pt) 
-data2vec-aqc | --- | Bengali  | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/data2vec-aqc/bn_checkpoint_best.pt)
-data2vec-aqc | --- | Chhattisgarhi | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/data2vec-aqc/ch_checkpoint_best.pt)
-data2vec-aqc | --- | Hindi | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/data2vec-aqc/hi_checkpoint_best.pt)
-data2vec-aqc | --- | Kannada | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/data2vec-aqc/kn_checkpoint_best.pt)
-data2vec-aqc | --- | Magahi | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/data2vec-aqc/mg_checkpoint_best.pt)
-data2vec-aqc | --- | Marathi | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/data2vec-aqc/mr_checkpoint_best.pt)
-data2vec-aqc | --- | Maithili | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/data2vec-aqc/mt_checkpoint_best.pt)
-data2vec-aqc | --- | Telugu | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/data2vec-aqc/te_checkpoint_best.pt)
+#### Data2Vec-AQC Models
+| Model         | Pre-training Data | Fine-tuning Data | Model Links                                                                 |
+|---------------|-------------------|------------------|-----------------------------------------------------------------------------|
+| data2vec-aqc  | ---               | Bhojpuri         | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/data2vec-aqc/bh_checkpoint_best.pt) |
+| data2vec-aqc  | ---               | Bengali          | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/data2vec-aqc/bn_checkpoint_best.pt) |
+| data2vec-aqc  | ---               | Chhattisgarhi    | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/data2vec-aqc/ch_checkpoint_best.pt) |
+| data2vec-aqc  | ---               | Hindi            | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/data2vec-aqc/hi_checkpoint_best.pt) |
+| data2vec-aqc  | ---               | Kannada          | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/data2vec-aqc/kn_checkpoint_best.pt) |
+| data2vec-aqc  | ---               | Magahi           | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/data2vec-aqc/mg_checkpoint_best.pt) |
+| data2vec-aqc  | ---               | Marathi          | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/data2vec-aqc/mr_checkpoint_best.pt) |
+| data2vec-aqc  | ---               | Maithili         | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/data2vec-aqc/mt_checkpoint_best.pt) |
+| data2vec-aqc  | ---               | Telugu           | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/data2vec-aqc/te_checkpoint_best.pt) |
 
+#### Indic Models
+| Model         | Pre-training Data | Fine-tuning Data | Model Links                                                                 |
+|---------------|-------------------|------------------|-----------------------------------------------------------------------------|
+| indic         | ---               | Bhojpuri         | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/indic/bh_checkpoint_best.pt) |
+| indic         | ---               | Bengali          | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/indic/bn_checkpoint_best.pt) |
+| indic         | ---               | Chhattisgarhi    | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/indic/ch_checkpoint_best.pt) |
+| indic         | ---               | Hindi            | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/indic/hi_checkpoint_best.pt) |
+| indic         | ---               | Kannada          | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/indic/kn_checkpoint_best.pt) |
+| indic         | ---               | Magahi           | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/indic/mg_checkpoint_best.pt) |
+| indic         | ---               | Marathi          | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/indic/mr_checkpoint_best.pt) |
+| indic         | ---               | Maithili         | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/indic/mt_checkpoint_best.pt) |
+| indic         | ---               | Telugu           | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/indic/te_checkpoint_best.pt) |
 
-|---|---|---|---
-indic | --- | Bhojpuri | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/indic/bh_checkpoint_best.pt) 
-indic | --- | Bengali  | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/indic/bn_checkpoint_best.pt)
-indic | --- | Chhattisgarhi | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/indic/ch_checkpoint_best.pt)
-indic | --- | Hindi | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/indic/hi_checkpoint_best.pt)
-indic | --- | Kannada | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/indic/kn_checkpoint_best.pt)
-indic | --- | Magahi | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/indic/mg_checkpoint_best.pt)
-indic | --- | Marathi | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/indic/mr_checkpoint_best.pt)
-indic | --- | Maithili | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/indic/mt_checkpoint_best.pt)
-indic | --- | Telugu | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/indic/te_checkpoint_best.pt)
-
-
-|---|---|---|---
-spring | --- | Bhojpuri | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/spring/bh_checkpoint_best.pt) 
-spring | --- | Bengali  | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/spring/bn_checkpoint_best.pt)
-spring | --- | Chhattisgarhi | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/spring/ch_checkpoint_best.pt)
-spring | --- | Hindi | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/spring/hi_checkpoint_best.pt)
-spring | --- | Kannada | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/spring/kn_checkpoint_best.pt)
-spring | --- | Magahi | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/spring/mg_checkpoint_best.pt)
-spring | --- | Marathi | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/spring/mr_checkpoint_best.pt)
-spring | --- | Maithili | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/spring/mt_checkpoint_best.pt)
-spring | --- | Telugu | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/spring/te_checkpoint_best.pt)
-
+#### Spring Models
+| Model         | Pre-training Data | Fine-tuning Data | Model Links                                                                 |
+|---------------|-------------------|------------------|-----------------------------------------------------------------------------|
+| spring        | ---               | Bhojpuri         | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/spring/bh_checkpoint_best.pt) |
+| spring        | ---               | Bengali          | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/spring/bn_checkpoint_best.pt) |
+| spring        | ---               | Chhattisgarhi    | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/spring/ch_checkpoint_best.pt) |
+| spring        | ---               | Hindi            | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/spring/hi_checkpoint_best.pt) |
+| spring        | ---               | Kannada          | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/spring/kn_checkpoint_best.pt) |
+| spring        | ---               | Magahi           | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/spring/mg_checkpoint_best.pt) |
+| spring        | ---               | Marathi          | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/spring/mr_checkpoint_best.pt) |
+| spring        | ---               | Maithili         | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/spring/mt_checkpoint_best.pt) |
+| spring        | ---               | Telugu           | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/spring/te_checkpoint_best.pt) |
 
 
 
