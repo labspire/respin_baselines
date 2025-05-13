@@ -4,6 +4,8 @@
 
 ### Models
 
+All the below model weights can be found in the [huggingface repository](https://huggingface.co/SpireLab/RESPIN/tree/main/finetuned)
+
 #### Data2Vec-AQC Models
 | Model         | Pre-training Data | Fine-tuning Data | Model Links                                                                 |
 |---------------|-------------------|------------------|-----------------------------------------------------------------------------|
