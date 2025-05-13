@@ -92,8 +92,14 @@ conda activate env_name
 ```bash
 pip install -r requirements.txt
 ```
-* To install fairseq and develop locally:
+* To install fairseq and develop locally (ubuntu):
 
+``` bash
+git clone https://github.com/facebookresearch/fairseq.git
+cd fairseq
+pip install --editable ./
+```
+* For data2vec-aqc 
 ``` bash
 git clone https://github.com/Speech-Lab-IITM/data2vec-aqc
 cd data2vec-aqc/
