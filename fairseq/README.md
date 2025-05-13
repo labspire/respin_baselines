@@ -11,6 +11,7 @@ Model | Pre-training data | Fine-tuning data | Model Links | WER (test-RESPIN) |
 data2vec-aqc | --- | Bhojpuri | [fairseq](https://huggingface.co/SpireLab/RESPIN/resolve/main/finetuned/data2vec-aqc/bh_checkpoint_best.pt) | 14.628 | 3.794
 
 
+
 * finetuning procedures can be found [here](https://github.com/labspire/respin_baselines/tree/main/fairseq/recipes/Training).
 * Inference procedures can be found [here](https://github.com/labspire/respin_baselines/tree/main/fairseq/recipes/Inference).
 * Single file inference procedures can be found [here](https://github.com/labspire/respin_baselines/tree/main/fairseq/recipes/Single_File_Infer)
