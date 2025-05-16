@@ -22,9 +22,12 @@ def main():
     
     dialects_list = ["D1", "D2", "D3", "D4", "D5", "all"]
     
-    root_dir = "/home1/jesuraj/whisper/transcriptions/"
+    root_dir = "transcriptions/"
     models = [os.path.join(root_dir, x) for x in os.listdir(root_dir)]
     
+    metrics_dir = "metrics/"
+    if not os.path.exists(metrics_dir):
+        os.makedirs(metrics_dir)
     
     
     for model_name in models:
@@ -79,7 +82,7 @@ def main():
                 
         print(save_dict)
         df = pd.DataFrame(dict([ (k,pd.Series(v)) for k,v in save_dict.items() ]))
-        df.to_csv(model_name.split("/")[-1] + "_results2.csv", index=False)
+        df.to_csv(os.path.join(metrics_dir, model_name.split("/")[-1] + "_results.csv"), index=False)
 
 
 if __name__ == '__main__':

@@ -115,8 +115,8 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--model", type=str, default="whisper-tiny")
 parser.add_argument("--language", type=str, default="marathi")
 parser.add_argument("--langid", type=str, default="marathi")
-parser.add_argument("--trainpath", type=str, default="/home1/jesuraj/asr/new_split/train_mr_s12345/")
-parser.add_argument("--evalpath", type=str, default="/home1/jesuraj/asr/new_split/dev_mr_nt/")
+parser.add_argument("--trainpath", type=str, default=None)
+parser.add_argument("--evalpath", type=str, default=None)
 parser.add_argument("--checkpoint", type=str, default=None)
 parser.add_argument("--num_processes", type=str, default=1)
 parser.add_argument("--gpu_ids", type=str, default=1)
@@ -153,7 +153,7 @@ train_dataset = DataLoaderCustom("train", train_path, processor=processor)
 eval_dataset = DataLoaderCustom("eval", eval_path, processor=processor)
 
 
-output_dir = os.path.join("results", whisper_model,language)
+output_dir = os.path.join("exp", whisper_model,language)
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 

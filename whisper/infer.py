@@ -102,8 +102,8 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--model", type=str, default="whisper-tiny")
 parser.add_argument("--language", type=str, default="chhattisgarhi")
 parser.add_argument("--langid", type=str, default="hindi")
-parser.add_argument("--testpath", type=str, default="/home1/Sathvik/espnet_datasets/RESPIN_FINAL_DATASET/test/test_ch_nt/")
-parser.add_argument("--checkpoint", type=str, default="/home1/jesuraj/whisper/results/whisper-tiny/chhattisgarhi/checkpoint-33000")
+parser.add_argument("--testpath", type=str, default=None)
+parser.add_argument("--checkpoint", type=str, default=None)
 parser.add_argument("--num_processes", type=str, default=1)
 parser.add_argument("--dialect", type=str, default="")
 
@@ -119,7 +119,7 @@ test_path = args.testpath
 dialect = args.dialect
 
 checkpoint = args.checkpoint
-trans_dir = f"/home1/jesuraj/whisper/transcriptions/{args.model}/"
+trans_dir = f"transcriptions/{args.model}/"
 
 
 processor = WhisperProcessor.from_pretrained("openai/"+ whisper_model, language=lang_id, task="transcribe")
