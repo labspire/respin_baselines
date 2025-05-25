@@ -49,7 +49,7 @@ Each language folder contains:
 
 ---
 
-## 📈 Results Summary
+## Results Summary
 
 | Language | Model Path                                      | CER (%) | WER (%) |
 |----------|--------------------------------------------------|---------|---------|
@@ -67,7 +67,16 @@ Each language folder contains:
 
 ---
 
-## 🏁 How to Train
+## How to Train
+
+### 📂 Data Preparation
+
+The ESPnet recipe expects the RESPIN-S1.0 data to be organized in [Kaldi](https://kaldi-asr.org/doc/data_prep.html) format. You can prepare the data directories using the provided script:
+
+[labspire/respin_baselines/data_prep.py](https://github.com/labspire/respin_baselines/blob/main/data_prep.py)
+
+Run this script to generate the required `data/` folders before starting training.
+---
 
 The full training pipeline is defined in:
 
