@@ -10,7 +10,7 @@ Prepare your dataset in **Kaldi-style format** with separate `train`, `dev`, and
 Each directory must contain the following files:
 
 - `wav.scp`: Maps utterance IDs to audio file paths.
-- `text`: Maps utterance IDs to phoneme or text transcriptions.
+- `text`: Maps utterance IDs to text transcriptions.
 - `utt2dial`: Maps utterance IDs to dialect labels.
 
 ---
