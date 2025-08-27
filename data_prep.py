@@ -31,6 +31,9 @@ def generate_kaldi_files(meta_json_path, output_dir):
         lang = info["lid"]
         dialect = info["dialect"]
         transcript = info["text"]
+        # Remove commas and question marks, strip leading/trailing spaces, and collapse consecutive spaces
+        transcript = transcript.replace(",", "").replace("?", "")
+        transcript = " ".join(transcript.strip().split())
         duration = info["duration"]
 
         # Populate each line
