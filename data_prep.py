@@ -37,16 +37,16 @@ def generate_kaldi_files(meta_json_path, output_dir):
         duration = info["duration"]
 
         # Populate each line
-        wav_scp.append(f"{utt_id} {wav_path}")
-        utt2spk.append(f"{utt_id} {speaker_id}")
-        text.append(f"{utt_id} {transcript}")
-        utt2lang.append(f"{utt_id} {lang}")
-        utt2dialect.append(f"{utt_id} {dialect}")
-        utt2dur.append(f"{utt_id} {duration:.2f}")
+        wav_scp.append(f"{utt_id}\t{wav_path}")
+        utt2spk.append(f"{utt_id}\t{speaker_id}")
+        text.append(f"{utt_id}\t{transcript}")
+        utt2lang.append(f"{utt_id}\t{lang}")
+        utt2dialect.append(f"{utt_id}\t{dialect}")
+        utt2dur.append(f"{utt_id}\t{duration:.2f}")
         spk2utt_dict[speaker_id].append(utt_id)
 
     # Create spk2utt from utt2spk
-    spk2utt = [f"{spk} {' '.join(utts)}" for spk, utts in spk2utt_dict.items()]
+    spk2utt = [f"{spk}\t{' '.join(utts)}" for spk, utts in spk2utt_dict.items()]
 
     # Create output directory if not exists
     os.makedirs(output_dir, exist_ok=True)
